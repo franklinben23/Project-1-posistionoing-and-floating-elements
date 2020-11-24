@@ -2,10 +2,35 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   padding: 2px 2px;
+}
+
+.nav-bar-link{
+  color: black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+}
+
+.top-left-buttons{
+  display:flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn{
+  background-color: rgb(50, 104, 145);
+  border: rgb(60, 114, 155);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
 }
