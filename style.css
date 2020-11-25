@@ -68,27 +68,26 @@ header {
   padding-bottom: 20px;
 }
 
-figcaption {
-  display: flex;
-  margin-left: 0;
-  max-width: 720px;
-  text-align: left;
-}
-
 .logo img {
   width: 200px;
 }
 
 main {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 19px;
   width: 500px;
   left: 50%;
   margin: auto;
 }
 
-main p{
+main p {
   margin: 5px 0;
   line-height: 1.5625rem;
 }
 
+.caption {
+  width: 1100px;
+  padding-top: 10px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
