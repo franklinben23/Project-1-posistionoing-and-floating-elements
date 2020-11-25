@@ -97,9 +97,12 @@ main p {
   right: 300px;
 }
 
-.grid-of-images {
+/*.grid-of-images {
   position: relative;
   /* left: auto;*/
+
+.grid-background {
+  width: 1000px;
 }
 .grid .grid-header {
   width: 1000px;
