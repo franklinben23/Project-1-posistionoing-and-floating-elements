@@ -91,3 +91,74 @@ main p {
   color: #666;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
+
+.grid {
+  position: relative;
+  right: 300px;
+}
+
+.grid-of-images {
+  position: relative;
+  /* left: auto;*/
+}
+.grid .grid-header {
+  width: 1000px;
+  text-align: left;
+}
+
+.grid .grid-header h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.grid .grid-header .grid-header-caption {
+  width: 1000px;
+}
+
+.grid-text {
+  width: 240px;
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+}
+
+.box-1 {
+  top: 250px;
+}
+
+.box-2 {
+  top: 250px;
+  left: 250px;
+}
+
+.box-3 {
+  top: 250px;
+  left: 500px;
+}
+
+.box-4 {
+  top: 250px;
+  left: 750px;
+}
+.box-5 {
+  top: 550px;
+}
+
+.box-6 {
+  top: 550px;
+  left: 250px;
+}
+
+.box-7 {
+  top: 550px;
+  left: 500px;
+}
+
+.box-8 {
+  top: 550px;
+  left: 750px;
+}
+
+hr {
+  width: 100px;
+}
