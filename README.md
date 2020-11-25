@@ -2,11 +2,9 @@
 
 # Project 1: Positioning and Floating Elements
 
-> This project is a clone from the [NYT article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+![screenshot](https://user-images.githubusercontent.com/68623189/100251656-6299d700-2f15-11eb-8504-774e6342aaf6.png)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+This project is a clone from the [NYT article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ## Built With
 
@@ -15,8 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://franklinben23.github.io/Project-1-posistionoing-and-floating-elements/.)
 
 ## Authors
 
