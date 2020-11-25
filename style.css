@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -32,7 +32,6 @@ nav {
 .top-left-icons {
   display: flex;
   justify-content: space-around;
-
   width: 300px;
 }
 
@@ -54,6 +53,7 @@ header {
 .main-image {
   width: 1160px;
 }
+
 .main-header {
   width: 600px;
   margin-left: auto;
@@ -97,13 +97,10 @@ main p {
   right: 300px;
 }
 
-/*.grid-of-images {
-  position: relative;
-  /* left: auto;*/
-
 .grid-background {
   width: 1000px;
 }
+
 .grid .grid-header {
   width: 1000px;
   text-align: left;
@@ -143,6 +140,7 @@ main p {
   top: 250px;
   left: 750px;
 }
+
 .box-5 {
   top: 550px;
 }
@@ -210,5 +208,5 @@ aside {
   font-size: 16px;
   border-bottom: 1px solid rgb(226, 226, 226);
   width: 300px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
