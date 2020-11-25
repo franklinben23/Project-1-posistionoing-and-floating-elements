@@ -75,7 +75,7 @@ header {
 main {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 19px;
-  width: 500px;
+  width: 550px;
   left: 50%;
   margin: auto;
 }
@@ -161,4 +161,16 @@ main p {
 
 hr {
   width: 100px;
+}
+
+.video .caption{
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
+.in-text-img img,
+.in-text-img p{
+  width: 600px;
+  font-size: 0.9375rem;
+  line-height: 20px;
 }
