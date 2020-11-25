@@ -163,14 +163,49 @@ hr {
   width: 100px;
 }
 
-.video .caption{
+.video .caption {
   width: 100%;
   font-size: 0.9375rem;
 }
 
 .in-text-img img,
-.in-text-img p{
+.in-text-img p {
   width: 600px;
   font-size: 0.9375rem;
   line-height: 20px;
+}
+
+aside {
+  float: right;
+  margin-top: 55%;
+}
+
+.picks {
+  margin-right: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+
+.picks a {
+  padding: 20px 10px;
+  width: 300px;
+  color: #333;
+}
+
+.picks a:hover {
+  text-decoration: underline;
+}
+
+.picks img {
+  width: 75px;
+  margin: 8px 0;
+}
+
+.editor-title {
+  font-size: 16px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  width: 300px;
+  margin: 10px 0px;
 }
