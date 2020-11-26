@@ -336,6 +336,7 @@ footer {
 
 footer li {
   list-style: none;
+  padding-top: 7px;
 }
 
 .author-space {
