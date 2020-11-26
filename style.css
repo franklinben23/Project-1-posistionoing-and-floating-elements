@@ -210,3 +210,7 @@ aside {
   width: 300px;
   margin: 10px 0;
 }
+
+.caption-smaller {
+  width: fit-content;
+}
