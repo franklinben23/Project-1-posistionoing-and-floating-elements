@@ -216,4 +216,32 @@ aside {
   font-size: 0.9375rem;
 }
 
+.related-content{
+  display: flex;
+}
 
+.suggested-newsletter{
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px #333 solid;
+  width: 271.33px;
+  padding: 20px;
+}
+
+.icon-size{
+  
+}
