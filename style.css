@@ -68,7 +68,7 @@ header {
   padding-bottom: 20px;
 }
 
-.logo img {
+.logo a img {
   width: 200px;
 }
 
@@ -182,7 +182,7 @@ aside {
 }
 
 .picks {
-  margin-right: 250px;
+  margin-right: 5rem;
   display: flex;
   justify-content: space-between;
   width: 300px;
