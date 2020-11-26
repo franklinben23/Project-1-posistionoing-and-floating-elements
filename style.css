@@ -216,16 +216,40 @@ aside {
   font-size: 0.9375rem;
 }
 
-.related-content{
+.related-content {
   display: flex;
+  margin-right: 250px;
+  margin-left: 250px;
 }
 
-.suggested-newsletter{
+.suggested-newsletter,
+.more-in-section,
+.most-popular {
+  border-top: 0.5px black solid;
+  padding-top: 20px;
+}
+
+.suggested-section {
+  margin-right: 20px;
+}
+
+.suggested-newsletter {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
-.newsletter-grid{
+.suggested-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.suggested-header a {
+  padding-right: 20px;
+}
+
+.newsletter-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -237,11 +261,39 @@ aside {
 }
 
 .card {
-  border: 1px #333 solid;
+  border: 1px lightgray solid;
   width: 271.33px;
   padding: 20px;
+  margin-right: 20px;
 }
 
-.icon-size{
-  
+.space-card {
+  width: 272px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.space-card img {
+  width: 272px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.lower-title {
+  font-size: 1.2rem;
+  padding-left: 17px;
+}
+
+.most-popular-title {
+  padding-bottom: 20px;
+}
+
+.bottom-link {
+  border-top: 0.5px #333 solid;
+  padding: 20px 0;
+}
+
+.bottom-link a {
+  font-size: 20px;
+  color: black;
 }
