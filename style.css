@@ -68,6 +68,33 @@ header {
   padding-bottom: 20px;
 }
 
+main p {
+  margin: 5px 0;
+  line-height: 1.5625rem;
+}
+
+.in-text-img img,
+.in-text-img p {
+  width: 600px;
+  font-size: 0.9375rem;
+  line-height: 20px;
+}
+
+.picks img {
+  width: 75px;
+  margin: 8px 0;
+}
+
+.space-card img {
+  width: 272px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.img img {
+  width: 75px;
+}
+
 .logo a img {
   width: 200px;
 }
@@ -78,11 +105,6 @@ main {
   width: 550px;
   left: 50%;
   margin: auto;
-}
-
-main p {
-  margin: 5px 0;
-  line-height: 1.5625rem;
 }
 
 .caption {
@@ -169,13 +191,6 @@ hr {
   font-size: 0.9375rem;
 }
 
-.in-text-img img,
-.in-text-img p {
-  width: 600px;
-  font-size: 0.9375rem;
-  line-height: 20px;
-}
-
 aside {
   float: right;
   margin-top: 55%;
@@ -189,19 +204,33 @@ aside {
   align-items: center;
 }
 
+footer a {
+  color: black;
+}
+
 .picks a {
   padding: 20px 10px;
   width: 300px;
   color: #333;
 }
 
-.picks a:hover {
-  text-decoration: underline;
+.suggested-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-.picks img {
-  width: 75px;
-  margin: 8px 0;
+.bottom-link a {
+  font-size: 20px;
+  color: black;
+}
+
+.suggested-header a {
+  padding-right: 20px;
+}
+
+.picks a:hover {
+  text-decoration: underline;
 }
 
 .editor-title {
@@ -212,7 +241,6 @@ aside {
 }
 
 .caption-smaller {
-  width: fit-content;
   font-size: 0.9375rem;
 }
 
@@ -239,16 +267,6 @@ aside {
   padding-bottom: 20px;
 }
 
-.suggested-header {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.suggested-header a {
-  padding-right: 20px;
-}
-
 .newsletter-grid {
   display: flex;
   flex-direction: row;
@@ -273,12 +291,6 @@ aside {
   padding-bottom: 30px;
 }
 
-.space-card img {
-  width: 272px;
-  padding-right: 20px;
-  padding-top: 20px;
-}
-
 .lower-title {
   font-size: 1.2rem;
   padding-left: 17px;
@@ -291,11 +303,6 @@ aside {
 .bottom-link {
   border-top: 0.5px #333 solid;
   padding: 20px 0;
-}
-
-.bottom-link a {
-  font-size: 20px;
-  color: black;
 }
 
 footer {
@@ -320,6 +327,7 @@ footer {
   border-top: lightgray 3.5px double;
   margin-left: 200px;
 }
+
 .last-hr {
   width: 200px;
   border-top: lightgray 3px solid;
@@ -328,10 +336,6 @@ footer {
 
 footer li {
   list-style: none;
-}
-
-footer a {
-  color: black;
 }
 
 .author-space {
