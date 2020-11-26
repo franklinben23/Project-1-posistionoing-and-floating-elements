@@ -300,10 +300,47 @@ aside {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px 200px;
 }
 
 .subscribe-section {
   display: flex;
   flex-direction: column;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
+}
+
+.hr-footer {
+  width: 1000px;
+  border-top: lightgray 3.5px double;
+  margin-left: 200px;
+}
+.last-hr {
+  width: 200px;
+  border-top: lightgray 3px solid;
+  margin: 10px 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: black;
+}
+
+.author-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
 }
