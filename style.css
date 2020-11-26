@@ -297,3 +297,13 @@ aside {
   font-size: 20px;
   color: black;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+}
