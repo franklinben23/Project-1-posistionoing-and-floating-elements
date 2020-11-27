@@ -215,6 +215,10 @@ footer a {
   padding: 7px;
 }
 
+small a {
+  color: #666;
+}
+
 .picks a {
   padding: 20px 10px;
   width: 300px;
@@ -230,6 +234,13 @@ footer a {
 .bottom-link a {
   font-size: 20px;
   color: black;
+}
+
+.author-links a {
+  color: black;
+  background: #eee;
+  border-radius: 100%;
+  padding: 5px 10px;
 }
 
 .suggested-header a {
@@ -339,6 +350,7 @@ footer {
   border-top: lightgray 3.5px double;
   margin-left: 125px;
 }
+
 .hr-footer2 {
   width: 1650px;
   border-top: lightgray 1px solid;
@@ -363,13 +375,6 @@ footer li {
   align-items: flex-end;
 }
 
-.author-links a {
-  color: black;
-  background: #eeeeee;
-  border-radius: 100%;
-  padding: 5px 10px;
-}
-
 .comments {
   display: flex;
   justify-content: space-between;
@@ -378,10 +383,6 @@ footer li {
 
 .most-popular {
   width: 580px;
-}
-
-.suggested-header a {
-  color: rgb(102, 102, 102);
 }
 
 .bold {
@@ -405,8 +406,4 @@ footer li {
 
 small {
   font-size: 11px;
-}
-
-small a {
-  color: #666;
 }
