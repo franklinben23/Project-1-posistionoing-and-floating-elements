@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 2px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nav-bar-link {
+  color: black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+}
+
+.top-right-buttons {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.top-left-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.comments .comments-btn {
+  padding: 10px 90px;
+  font-size: 13px;
+}
+
+.btn {
+  background-color: rgb(86, 123, 149);
+  border: rgb(60, 114, 155);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  width: 1160px;
+}
+
+.main-header {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 3rem;
+  font-weight: 700;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+main p {
+  margin: 5px 0;
+  line-height: 1.5625rem;
+}
+
+.in-text-img img,
+.in-text-img p {
+  width: 600px;
+  font-size: 0.9375rem;
+  line-height: 20px;
+}
+
+.picks img {
+  width: 75px;
+  margin: 8px 0;
+}
+
+.space-card img {
+  width: 272px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.img img {
+  width: 75px;
+}
+
+.logo a img {
+  width: 200px;
+}
+
+main {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 19px;
+  width: 550px;
+  left: 50%;
+  margin: auto;
+}
+
+.caption {
+  width: 1100px;
+  padding-top: 10px;
+  color: #666;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.grid {
+  position: relative;
+  right: 200px;
+}
+
+.grid-background {
+  width: 1000px;
+}
+
+.grid .grid-header {
+  width: 1000px;
+  text-align: left;
+}
+
+.grid .grid-header h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.grid .grid-header .grid-header-caption {
+  width: 1000px;
+}
+
+.grid-text {
+  width: 240px;
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+}
+
+.box-1 {
+  top: 250px;
+}
+
+.box-2 {
+  top: 250px;
+  left: 250px;
+}
+
+.box-3 {
+  top: 250px;
+  left: 500px;
+}
+
+.box-4 {
+  top: 250px;
+  left: 750px;
+}
+
+.box-5 {
+  top: 550px;
+}
+
+.box-6 {
+  top: 550px;
+  left: 250px;
+}
+
+.box-7 {
+  top: 550px;
+  left: 500px;
+}
+
+.box-8 {
+  top: 550px;
+  left: 750px;
+}
+
+hr {
+  width: 100px;
+}
+
+.video .caption {
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
+aside {
+  float: right;
+  margin-top: 55%;
+}
+
+.picks {
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  align-items: center;
+}
+
+footer a {
+  color: black;
+  padding: 7px;
+}
+
+small a {
+  color: #666;
+}
+
+.picks a {
+  padding: 10px 10px;
+  width: 300px;
+  color: #333;
+  font-size: 14px;
+}
+
+.suggested-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.bottom-link a {
+  font-size: 20px;
+  color: black;
+}
+
+.author-links a {
+  color: black;
+  background: #eee;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+
+.suggested-header a {
+  padding-right: 20px;
+}
+
+.picks a:hover {
+  text-decoration: underline;
+}
+
+.editor-title {
+  font-size: 16px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  width: 210px;
+  margin: 10px 0;
+}
+
+.caption-smaller {
+  width: 550px;
+  font-size: 0.7rem;
+}
+
+.related-content {
+  display: flex;
+  margin-right: 115px;
+  margin-left: 115px;
+}
+
+.suggested-newsletter,
+.more-in-section,
+.most-popular {
+  border-top: 0.5px black solid;
+  padding-top: 20px;
+}
+
+.suggested-section {
+  margin-right: 20px;
+}
+
+.suggested-newsletter {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.newsletter-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px lightgray solid;
+  width: 277.33px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.space-card {
+  width: 272px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.lower-title {
+  font-size: 1.2rem;
+  padding-left: 17px;
+}
+
+.most-popular-title {
+  padding-bottom: 20px;
+}
+
+.bottom-link {
+  border-top: 0.5px rgb(226, 226, 226) solid;
+  padding: 13px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 125px;
+  margin-bottom: 10px;
+}
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  border-left: lightgray 1px solid;
+  padding: 8px;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 125px;
+}
+
+.hr-footer {
+  width: 1175px;
+  border-top: lightgray 3.5px double;
+  margin-left: 125px;
+}
+
+.hr-footer2 {
+  width: 1175px;
+  border-top: lightgray 1px solid;
+  margin-left: 125px;
+  margin-bottom: 100px;
+}
+
+.last-hr {
+  width: 200px;
+  border-top: lightgray 1px solid;
+  margin: 10px 0;
+}
+
+footer li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.author-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.most-popular {
+  width: 580px;
+}
+
+.bold {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  position: relative;
+  text-align: center;
+  background-color: #333;
+}
+
+.footer-bottom-container {
+  position: absolute;
+  bottom: 25px;
+  padding: 10px 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 0 40px 110px;
+}
+
+small {
+  font-size: 11px;
+}
+
+.editor-picks {
+  margin-bottom: 50px;
+}
+
+.btn-nav {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.b-link {
+  color: rgb(50, 104, 145);
+}
+
+.gray-text {
+  line-height: 20px;
+  font-family: helvetica, arial, sans-serif;
+  color: #555;
+}
