@@ -352,7 +352,7 @@ footer {
 }
 
 .hr-footer2 {
-  width: 1650px;
+  width: 1175px;
   border-top: lightgray 1px solid;
   margin-left: 125px;
   margin-bottom: 100px;
@@ -391,19 +391,23 @@ footer li {
 
 .footer-bottom {
   position: relative;
+  text-align: center;
+  background-color: #333;
 }
 
 .footer-bottom-container {
   position: absolute;
   bottom: 25px;
-  left: 300px;
+  padding: 10px 125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  margin-bottom: 40px;
+  margin: 0 0 40px 110px;
 }
 
 small {
   font-size: 11px;
 }
+
+
