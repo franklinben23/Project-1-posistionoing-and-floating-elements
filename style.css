@@ -340,7 +340,7 @@ footer {
   margin-left: 125px;
 }
 .hr-footer2 {
-  width: 1175px;
+  width: 1650px;
   border-top: lightgray 1px solid;
   margin-left: 125px;
   margin-bottom: 100px;
@@ -386,4 +386,27 @@ footer li {
 
 .bold {
   font-size: 16px;
+}
+
+.footer-bottom {
+  position: relative;
+}
+
+.footer-bottom-container {
+  position: absolute;
+  bottom: 25px;
+  left: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin-bottom: 40px;
+}
+
+small {
+  font-size: 11px;
+}
+
+small a {
+  color: #666;
 }
