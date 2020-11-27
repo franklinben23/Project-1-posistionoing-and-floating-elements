@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -35,8 +36,13 @@ nav {
   width: 300px;
 }
 
+.comments .comments-btn {
+  padding: 10px 90px;
+  font-size: 13px;
+}
+
 .btn {
-  background-color: rgb(50, 104, 145);
+  background-color: rgb(86, 123, 149);
   border: rgb(60, 114, 155);
   color: white;
   padding: 8px;
@@ -206,6 +212,7 @@ aside {
 
 footer a {
   color: black;
+  padding: 7px;
 }
 
 .picks a {
@@ -241,13 +248,14 @@ footer a {
 }
 
 .caption-smaller {
-  font-size: 0.9375rem;
+  width: 550px;
+  font-size: 0.7rem;
 }
 
 .related-content {
   display: flex;
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 115px;
+  margin-left: 115px;
 }
 
 .suggested-newsletter,
@@ -280,7 +288,7 @@ footer a {
 
 .card {
   border: 1px lightgray solid;
-  width: 175.33px;
+  width: 199.33px;
   padding: 10px;
   margin-right: 10px;
 }
@@ -301,42 +309,52 @@ footer a {
 }
 
 .bottom-link {
-  border-top: 0.5px #333 solid;
+  border-top: 0.5px rgb(226, 226, 226) solid;
   padding: 20px 0;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px 200px;
+  padding: 10px 125px;
+  margin-bottom: 10px;
 }
 
 .subscribe-section {
   display: flex;
   flex-direction: column;
+  font-size: 11px;
+  border-left: lightgray 1px solid;
+  padding: 8px;
 }
 
 .footer-header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 200px;
+  padding: 10px 125px;
 }
 
 .hr-footer {
-  width: 1000px;
+  width: 1175px;
   border-top: lightgray 3.5px double;
-  margin-left: 200px;
+  margin-left: 125px;
+}
+.hr-footer2 {
+  width: 1175px;
+  border-top: lightgray 1px solid;
+  margin-left: 125px;
+  margin-bottom: 100px;
 }
 
 .last-hr {
   width: 200px;
-  border-top: lightgray 3px solid;
+  border-top: lightgray 1px solid;
   margin: 10px 0;
 }
 
 footer li {
   list-style: none;
-  padding-top: 7px;
+  padding-top: 10px;
 }
 
 .author-space {
@@ -345,7 +363,27 @@ footer li {
   align-items: flex-end;
 }
 
+.author-links a {
+  color: black;
+  background: #eeeeee;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+
 .comments {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.most-popular {
+  width: 580px;
+}
+
+.suggested-header a {
+  color: rgb(102, 102, 102);
+}
+
+.bold {
+  font-size: 16px;
 }
