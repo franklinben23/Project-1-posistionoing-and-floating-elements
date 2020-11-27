@@ -11,7 +11,7 @@ a {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 2px 2px;
   border-bottom: 1px solid #e2e2e2;
@@ -412,4 +412,9 @@ small {
 
 .editor-picks {
   margin-bottom: 50px;
+}
+
+.btn-nav {
+  font-size: 11px;
+  padding: 10px;
 }
